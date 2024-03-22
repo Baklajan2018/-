@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Radio</title>
+  <style>
+    /* Пример стилей для меню */
+    nav {
+      background: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      text-decoration: none;
+      margin: 0 10px;
+      color: #333;
+    }
+    nav a:hover {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">Главная</a>
+    <a href="/about">О нас</a>
+  </nav>
+  
+  <h1>Welcome to Online Radio</h1>
+  
+  <audio controls>
+    <source src="radio_stream_url.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <footer>
+    <p>© 2022 Online Radio</p>
+  </footer>
+</body>
+</html>
